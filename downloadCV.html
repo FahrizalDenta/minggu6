@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pesonal Website</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        *, 
+        html {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        header {
+            background-color: dimgrey;
+            padding: 2px;
+            text-align: center;
+            font-size: 25px;
+            color: black;
+        }
+
+        nav {
+            float: left;
+	  		width: 25%;
+			margin-top: 100px;
+	  		padding: 20px;
+		}
+
+		nav ul {
+			padding: 0;
+			list-style-type: none;
+			line-height: 35px;
+			text-indent: 35px;
+			font-size: 20px;
+			color: white;
+		}
+
+        p {
+            font-size: 25px;
+        }
+
+        section:after {
+	  		content: "";
+	  		display: table;
+	  		clear: both;
+		}
+
+		footer {
+	  		background-color: dimgrey;
+            margin-top: 365px;
+	  		padding: 10px;
+			font-size: 100%;
+	  		text-align: center;
+	  		color: black;
+			width: 100%;
+			height: 45px;
+		}
+
+		/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+		@media (max-width: 600px) {
+	  	nav, article {
+			width: 100%;
+			height: auto;
+	  		}
+		}
+    </style>
+</head>
+    <body>
+        <header>
+            <h1>Download CV</h1>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="downloadCV.html">Download CV</a></li>
+                </ul>
+            </nav>
+            <br/>
+            <p>klik untuk download cv</p>
+                <a href="/image/CV-Saya.pdf" download >
+                    <img src="/image/CV-Saya.pdf" width="50px" height="50px" alt=""/></a>
+                </a>
+            <hr />
+        </section>
+    <footer>
+        <p>Copyright &copy; 2022 Fahrizal Denta Saputra</p>
+    </footer>
+    </body>
+</html>

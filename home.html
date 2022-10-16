@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contoh Project Pemrograman Web</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		*, 
+    	html {
+	  		box-sizing: border-box;
+     		margin: 0;
+    		padding: 0;
+		}
+
+		body {
+	  		font-family: 'Times New Roman', Times, serif;
+		}
+
+		h1 {
+			color: #222;
+			font-family: 'Times New Roman', Times, serif;
+		}
+
+		header {
+      		background-color: dimgrey;
+	  		padding: 10px;
+	  		text-align: center;
+	  		font-size: 25px;
+	  		color: black;
+		}
+
+    	img {
+        	width: 250px;
+        	height: 250px;
+        	border-radius: 50%;
+			margin: 15px;
+			margin-right: 390px;
+    	}
+
+		h2 {
+			color: black;
+			height: 25%;
+			font-size: 20px;
+		}
+
+		nav {
+	  		float: left;
+	  		width: 25%;
+			margin-top: 100px;
+	  		padding: 20px;
+		}
+
+		nav ul {
+			padding: 0;
+			list-style-type: none;
+			line-height: 35px;
+			text-indent: 35px;
+			font-size: 20px;
+			color: white;
+
+		}
+	
+		article {
+	  		float: left;
+	  		padding: 40px;
+	  		width: 75%;
+			margin-left: 220px;
+		}
+
+    	div {
+        	max-width: 600px;
+        	margin: 3em auto;
+
+    	}
+
+    	table {
+			border: 1;
+        	width: 700px;
+			height: 100%;
+        	float: left;
+			margin-bottom: 20px;
+    	}
+
+		section:after {
+	  		content: "";
+	  		display: table;
+	  		clear: both;
+		}
+
+		footer {
+	  		background-color: dimgrey;
+			margin-top: 30px;
+	  		padding: 5px;
+			font-size: 100%;
+	  		text-align: center;
+	  		color: black;
+			width: 100%;
+			height: 45px;
+		}
+
+		/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+		@media (max-width: 600px) {
+	  	nav, article {
+			width: 100%;
+			height: auto;
+	  		}
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Home</h1>	
+	</header>
+	
+	<section>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="about.html">About Me</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="downloadCV.html">Download CV</a></li>
+			</ul>
+		</nav>
+
+		<figure style="text-align: center;">
+			<img src="image/foto1.png">
+			<h2>Fahrizal Denta Saputra</h2>
+			<p>(Web Developer)</p>
+		</figure>
+	  
+		<article>
+		<h1>OVERVIEW</h1>
+		<p>Perkenalkan nama saya Fahrizal Denta Saputra, saya adalah mahasiswa baru dari Universitas Dian Nuswantoro atau
+			yang biasa disebut Udinus. Saya berasal dari Fakultas Ilmu Komputer, dan jurusan saya yaitu teknik informatika.
+			Saya membuat CV ini bertujuan untuk melatih kemampuan coding saya dalam mempelajari html dan css, semoga CV 
+			yang saya buat ini bisa berguna bagi pembaca khususnya anak kuliah yang mengambil jurusan Teknik Informatika.
+		 </p>
+		  </article>
+		  
+		<div>
+			<table border="2" width="700px">
+				<thead>
+					<tr>
+						<th width="100px">Hobi</th>
+						<th width="250px">Pengalaman</th>
+						<th width="350px">Hal Positif yang sering dilakukan</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<ul>
+								Mengaji <br>
+								Main gitar <br>
+								Mengcoding <br>
+							</ul>
+						</td>
+						<td>
+							<ul>
+								Pengalaman belajar HTML <br>
+								Pengalaman belajar style CSS <br>
+								Pengalaman memahami Java Script <br>
+							</ul>
+						</td>
+						<td>
+							<ul>
+								Kumpul bareng temen membahas rancangan HTML <br>
+								Membentuk sebuah rutinitas mengcoding<br>
+								Diskusi dengan teman untuk menyelesaikan masalah <br>
+							</ul>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+
+	<footer>
+        <p>Copyright &copy; 2022 Fahrizal Denta Saputra</p>
+	</footer>
+</body>
+</html>
